@@ -1,0 +1,322 @@
+/* START: Avimed landing header */
+.avimed-landing-header {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 991px),
+  projection and (max-width: 991px),
+  tv and (max-width: 991px),
+  handheld and (max-width: 991px) {
+  .avimed-landing-header {
+    height: 380px;
+  }
+}
+
+@media (min-width: 992px) {
+  .avimed-landing-header {
+    height: 631px;
+  }
+}
+
+.avimed-landing-header__bg-holder {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.avimed-landing-header__inner.wrapper_inner {
+  background: 0 0;
+  height: 100%;
+  padding: 0;
+  z-index: auto;
+}
+
+@media (min-width: 992px) {
+  .avimed-landing-header__inner.wrapper_inner {
+    padding-top: 135px;
+  }
+}
+
+.avimed-landing-header__layout {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.avimed-landing-header__body,
+.avimed-landing-header__media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+@media screen and (max-width: 767px),
+  projection and (max-width: 767px),
+  tv and (max-width: 767px),
+  handheld and (max-width: 767px) {
+  .avimed-landing-header__body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px),
+  projection and (max-width: 767px),
+  tv and (max-width: 767px),
+  handheld and (max-width: 767px) {
+  .avimed-landing-header__media {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px),
+  projection and (max-width: 991px),
+  tv and (max-width: 991px),
+  handheld and (max-width: 991px) {
+  .avimed-landing-header__body,
+  .avimed-landing-header__media {
+    height: 380px;
+  }
+}
+
+@media (min-width: 992px) {
+  .avimed-landing-header__body,
+  .avimed-landing-header__media {
+    height: 496px;
+  }
+}
+
+.avimed-landing-header__title {
+  color: #202020;
+  font-size: 2.2666em;
+  line-height: 1.15em;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+@media screen and (max-width: 991px),
+  projection and (max-width: 991px),
+  tv and (max-width: 991px),
+  handheld and (max-width: 991px) {
+  .avimed-landing-header__title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 767px),
+  projection and (max-width: 767px),
+  tv and (max-width: 767px),
+  handheld and (max-width: 767px) {
+  .avimed-landing-header__title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .avimed-landing-header__title {
+    font-size: 19px;
+    line-height: 22px;
+  }
+}
+
+.avimed-landing-header__lead {
+  color: #333;
+  line-height: 1.8em;
+  max-height: 189px;
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-top: 23px !important;
+}
+
+@media screen and (max-width: 991px),
+  projection and (max-width: 991px),
+  tv and (max-width: 991px),
+  handheld and (max-width: 991px) {
+  .avimed-landing-header__lead {
+    line-height: 1.6em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+
+@media (max-width: 450px) {
+  .avimed-landing-header__lead {
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 11px !important;
+  }
+}
+
+.avimed-landing-header__btn {
+  align-self: flex-start;
+  margin-top: 29px;
+}
+
+@media screen and (max-width: 991px),
+  projection and (max-width: 991px),
+  tv and (max-width: 991px),
+  handheld and (max-width: 991px) {
+  .avimed-landing-header__btn {
+    padding: 12px 21px 12px;
+    margin: 23px 3px 7px 3px;
+  }
+}
+
+@media screen and (max-width: 767px),
+  projection and (max-width: 767px),
+  tv and (max-width: 767px),
+  handheld and (max-width: 767px) {
+  .avimed-landing-header__btn {
+    align-self: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .avimed-landing-header__btn {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 10px 14px 8px;
+    margin-top: 15px;
+  }
+}
+
+.avimed-landing-header__title,
+.avimed-landing-header__lead,
+.avimed-landing-header__btn {
+  margin-left: 90px;
+  margin-right: 20px;
+  position: relative;
+  z-index: 10;
+}
+
+@media screen and (max-width: 991px),
+  projection and (max-width: 991px),
+  tv and (max-width: 991px),
+  handheld and (max-width: 991px) {
+  .avimed-landing-header__title,
+  .avimed-landing-header__lead,
+  .avimed-landing-header__btn {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 767px),
+  projection and (max-width: 767px),
+  tv and (max-width: 767px),
+  handheld and (max-width: 767px) {
+  .avimed-landing-header__title,
+  .avimed-landing-header__lead,
+  .avimed-landing-header__btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .avimed-landing-header__lead,
+  .avimed-landing-header__btn {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+
+.avimed-landing-header__media {
+  height: 100%;
+}
+
+.avimed-landing-header__img {
+  bottom: 0;
+  max-height: calc(100% - 20px);
+  position: absolute;
+}
+/* END: Avimed landing header */
+
+/* Start Avimed langind features */
+
+.features__wrap {
+  text-align: center;
+}
+
+.features__titles {
+  padding: 100px 0 60px;
+}
+
+.features__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+}
+
+.features__lead {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.features__cards {
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 372px));
+  grid-column-gap: 60px;
+  justify-content: space-between;
+}
+
+.features__card {
+  grid-column: span 1;
+}
+
+.features__card-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.features__card-desc {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+/* End Avimed langind features */
+
+/* MEDIA Avimed Features START */
+
+@media (max-width: 991px) {
+  .features__cards {
+    display: grid;
+    grid-template-columns: none;
+  }
+
+  .features__title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .features__lead {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .features__card-title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .features__card-desc {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+/* MEDIA Avimed Features END */
